@@ -1,0 +1,95 @@
+.how-it-works-block,.more-text-block {
+    width: 40%;
+    text-align: center;
+    margin:auto;
+}
+
+h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .get-paid-paragraph {
+    font-weight: 500;
+}
+
+#how-title {
+    margin: 5% 0%;
+}
+
+.how-paragraph {
+    margin-bottom: 10%;
+}
+
+.multi-box {
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    /* grid-template-columns: 2fr 3fr; */
+    width: 40rem;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 75px;
+}
+
+.box1 {
+    flex: 2;
+    background-color: white;
+}
+
+.box2 {
+    flex: 3;
+    background-color: blue;    
+    border-left: 1px solid rgb(213, 213, 213);
+}
+
+.multi-box-left-image1 {
+    width: 80%;
+    display:block;
+    margin: 30% auto;
+}
+
+.multi-box-left-image2 {
+    width: 80%;
+    display:block;
+    margin: 20% auto;
+}
+
+.collect-head-div {
+    width: 75%;
+    height: 40%;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.collect-text-div {
+    padding: 0% 8%;
+}
+
+.collect-heading, .collect-paragraph, .get-paid-heading, .get-paid-paragraph {
+    color: white;
+
+}
+
+.collect-heading {
+    font-size: large;
+}
+
+.collect-paragraph {
+    font-size: x-small;
+}
+
+.get-paid-div {
+    text-align: center;
+    height: 40%;
+    padding: 70px 0px;
+}
+
+.get-paid-text-div {
+    padding: 0% 7%;
+}
+
+.get-paid-heading {
+    font-size: x-large;
+}
+
+.get-paid-paragraph {
+    font-size: x-small;
+}
