@@ -123,6 +123,7 @@ h6, .head-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .g
     padding: 1%;
     text-align: center;
     position: relative;
+    cursor: pointer;
 }
 
 #white-circle, #avatar-icon, #graph-icon, #convert-icon {
@@ -199,6 +200,17 @@ h6, .head-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .g
     height: 35px;
     line-height: 30px;
     position: relative;
+    cursor: pointer;
+}
+
+.learn-more-box:hover,
+.object:hover {
+    opacity: 0.75;
+}
+
+.learn-more-box:active,
+.object:active {
+    opacity: 0.5;
 }
 
 .learn-more-text {
