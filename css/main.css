@@ -1,19 +1,26 @@
-.how-it-works-block,.more-text-block {
+.head-text-div {
     width: 40%;
     text-align: center;
     margin:auto;
 }
 
-h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .get-paid-paragraph {
+h6, .head-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .get-paid-paragraph {
     font-weight: 500;
 }
 
-#how-title {
+.head-title {
+    font-size: x-large;
     margin: 5% 0%;
+    text-align: center;
 }
 
-.how-paragraph {
+.head-paragraph {
     margin-bottom: 10%;
+}
+
+.head-paragraph2 {
+    font-size: small;
+    text-align: center;
 }
 
 .multi-box {
@@ -21,7 +28,7 @@ h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .ge
     flex-direction: row;
     /* display: grid; */
     /* grid-template-columns: 2fr 3fr; */
-    width: 40rem;
+    width: 50rem;
     margin: auto;
     border: 1px solid gray;
     border-radius: 16px;
@@ -43,20 +50,26 @@ h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .ge
 .multi-box-left-image1 {
     width: 80%;
     display:block;
-    margin: 30% auto;
+    margin: 20% auto;
 }
 
 .multi-box-left-image2 {
     width: 80%;
     display:block;
-    margin: 20% auto;
+    margin: 30% auto;
+}
+
+.multi-box-left-image3 {
+    width: 80%;
+    display:block;
+    margin: 40% auto;
 }
 
 .collect-head-div {
     width: 75%;
     height: 40%;
     text-align: center;
-    padding: 60px 0px;
+    padding: 70px 0px;
 }
 
 .collect-text-div {
@@ -69,17 +82,17 @@ h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .ge
 }
 
 .collect-heading {
-    font-size: large;
+    font-size: x-large;
 }
 
 .collect-paragraph {
-    font-size: x-small;
+    font-size: small;
 }
 
 .get-paid-div {
     text-align: center;
     height: 40%;
-    padding: 70px 0px;
+    padding: 80px 0px;
 }
 
 .get-paid-text-div {
@@ -91,5 +104,112 @@ h6, .how-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .ge
 }
 
 .get-paid-paragraph {
-    font-size: x-small;
+    font-size: small;
+}
+
+.hold-objects-div {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.object {
+    width: 120px;
+    height: 150px;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 16px;
+    padding: 1%;
+    text-align: center;
+    position: relative;
+}
+
+#white-circle, #avatar-icon, #graph-icon, #convert-icon {
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#avatar-icon {
+    margin-top: 30%;
+}
+
+#convert-icon {
+    margin-top: 20%;
+}
+
+#dollar-sign {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    left: 0;
+    right: 0;
+    top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.object-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+}
+
+.grid-box {
+    display: grid;
+    grid-template-columns: 240px 240px;
+    justify-content: center;
+    column-gap: 150px;
+    row-gap: 80px;
+    margin-bottom: 100px;
+}
+
+.section-card {
+    height: 300px;
+    position: relative;
+}
+
+.section-card-image {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.section-card-bubble {
+    background-color: rgb(230, 236, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 0px auto;
+}
+
+.learn-more-box {
+    border: 2px solid gray;
+    border-radius: 4px;
+    width: 160px;
+    margin: auto;
+    height: 35px;
+    line-height: 30px;
+    position: relative;
+}
+
+.learn-more-text {
+    text-align: center; 
+    font-size: 12px;
+}
+
+.learn-box-arrow {
+    font-size: large;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
 }
