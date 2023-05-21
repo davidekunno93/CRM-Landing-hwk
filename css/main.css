@@ -1,6 +1,79 @@
-/* #qwerty{
-    text-decoration: none;
+#signIn{
+    color: blue;
+    background-color:white;
+    margin-right: 15px;
+    
+}
+
+#rightSide {
+    /* display: wrap; */
+    float: right;
+    max-width: 800px;
+    max-height: 380px;
+  }
+
+   /* @media (min-width: 500px) {
+   #rightSide {
+    #rightSide {width: 200px; float: left;} 
+        
+    }
 } */
+
+a:hover {
+    color: blue;
+  }
+
+.foot{
+    background-color: blue;
+}
+
+#try{
+    font-size: large;
+    font-weight: 700;
+}
+
+.pad{
+    padding-bottom: 50px;
+}
+
+.padl{
+    padding-left: 50px;
+}
+
+#padL{
+    padding-left: 10px;
+}
+
+.spanBlue{
+    color: blue;
+}
+
+.spanWhite{
+    color: white;
+}
+
+.half{
+    max-width: 40%;
+
+}
+
+half1{
+    color: gray;
+    font-weight: 500;    
+}
+
+half2{
+    color: black;
+    font-weight: 800;
+}
+ .textWhite{
+    color: white;
+ }
+
+.bold{
+    color: gray;
+    font-weight: 800;    
+}
 
 .how-it-works-block,.more-text-block {
     width: 40%;
