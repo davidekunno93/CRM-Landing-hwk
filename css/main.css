@@ -309,11 +309,11 @@ h6, .head-paragraph, .collect-heading, .collect-paragraph, .get-paid-heading, .g
     margin-left: 50px;
 }
     
-/* @media (min-width: 600px) {
+@media (max-width: 800px) {
    #rightSide {
        display: none;
     }
-} */
+}
 
 a:hover {
     color: blue;
