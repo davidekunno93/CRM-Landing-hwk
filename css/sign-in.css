@@ -1,0 +1,36 @@
+#big-box {
+    background-color: blue;
+    position: relative;
+   
+    
+
+}
+
+body {
+    background-image: url(/images/blue-stroke-background.png);
+    background-position: left;
+}
+
+  
+#rocket {
+    background-color: blue;
+    position: relative;
+    display: block;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 100px;
+    font-family: 'Alegreya', serif;
+    text-align: center;
+}
+
